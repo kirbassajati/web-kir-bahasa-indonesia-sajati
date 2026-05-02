@@ -1,0 +1,123 @@
+/* RESET DASAR */
+body {
+    background-color: #ffd54f !important;
+}
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff8dc;
+  color: #222;
+  transition: 0.3s;
+}
+
+/* HEADER */
+header {
+  background-color: #f7c600;
+  text-align: center;
+  padding: 25px;
+}
+
+/* LOGO */
+.logo-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.logo-box img {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  background: white;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+/* CARD */
+.card {
+  background: white;
+  margin: 25px auto;
+  padding: 25px;
+  max-width: 800px;
+  border-radius: 12px;
+  transition: 0.3s;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+/* JUDUL */
+h1 {
+  color: white;
+}
+
+h2 {
+  color: #d19a00;
+}
+
+/* TEKS */
+p, li {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* TOMBOL */
+button {
+  background-color: #f7c600;
+  color: #222;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* INFO TAMBAHAN */
+#info-tambahan {
+  display: none;
+}
+
+#info-tambahan.muncul {
+  display: block;
+}
+
+/* EFEK JUDUL BERKEDIP */
+#judul {
+  animation: kedip 2s infinite;
+}
+
+@keyframes kedip {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+/* DARK MODE */
+.dark-mode {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.dark-mode header {
+  background-color: #333;
+}
+
+.dark-mode .card {
+  background-color: #2c2c2c;
+  color: white;
+}
+
+.dark-mode h1,
+.dark-mode h2 {
+  color: #ffd54f;
+}
+
+/* FOOTER */
+footer {
+  background-color: #f7c600;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
