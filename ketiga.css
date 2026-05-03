@@ -112,8 +112,9 @@ button,
 
 .berita-card img {
   width: 100%;
-  height: 250px;
+  height: 180px;
   object-fit: cover;
+  object-position: center;
   border-radius: 12px;
   margin-bottom: 15px;
 }
